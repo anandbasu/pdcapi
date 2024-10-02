@@ -2,8 +2,8 @@ import streamlit as st
 #from helper import get_openai_api_key
 # the OEPNAI_API_KEY is set in the environment
 #OPENAI_API_KEY = get_openai_api_key()
-#import nest_asyncio
-#nest_asyncio.apply()
+import nest_asyncio
+nest_asyncio.apply()
 from llama_index.core.tools import FunctionTool
 import pandas as pd
 #from langchain_core.tools import tool
