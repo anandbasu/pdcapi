@@ -436,8 +436,7 @@ if prompt := st.chat_input():
     # TO-DO: Use the same models
     llm = openai.OpenAI(api_key = openai_api_key, model="gpt-3.5-turbo")
     
-    ##CHANGE THIS
-    #gemini_key='AIzaSyCvDS90ATrK30_eFQSt8CpSR43u3puRjKw'
+    
     genai.configure(api_key=gemini_api_key)
 
     model_pandas = genai.GenerativeModel('gemini-1.5-flash-latest', system_instruction="You are an expert python developer who works with pandas. You make sure to generate simple pandas 'command' for the user queries in JSON format. No need to add 'print' function. Analyse the datatypes of the columns before generating the command. If unfeasible, return 'None'. ")
