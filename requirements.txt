@@ -3,3 +3,4 @@ nest_asyncio
 llama_index
 requests
 google.generativeai
+matplotlib
