@@ -19,8 +19,9 @@ from llama_index.llms import openai
 
 
 import google.generativeai  as genai
-import pandas as pd
+
 import typing_extensions
+
 from openai import OpenAI
 import os
 
